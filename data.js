@@ -39,7 +39,7 @@ let timers = {
 let maps = {
 	training:		{size:"sml",file:"map_training.png"},
 	bleasdale:	{size:"sml",file:"map_bleasdale.png"},
-	brownstone:	{size:"med",file:"map_highschool.png"},
+	brownstone:	{size:"lar",file:"map_highschool.png"},
 	edgefield:	{size:"sml",file:"map_edgefield.png"},
 	grafton:		{size:"sml",file:"map_grafton.png"},
 	maple:			{size:"med",file:"map_maple.png"},
@@ -88,8 +88,8 @@ let rolls = {
 			clear:	{items:[]},
 			all:		{items:[]},
 			small:	{items:["bleasdale","edgefield","grafton","ridgeview","tanglewood","willow","woodwind"]},
-			medium:	{items:["brownstone","maple","prison"]},
-			large:	{items:["sunny"]},
+			medium:	{items:["maple","prison"]},
+			large:	{items:["brownstone","sunny"]},
 		},
 	},
 	items:{
