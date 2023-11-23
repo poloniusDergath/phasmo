@@ -1,2 +1,4 @@
 .idea
 *.cmd
+docker-compose.yml
+.env
