@@ -100,10 +100,12 @@ function load() {
 		if (!count) { setTimeout(() => { map_select(key); },20); }
 		count++;
 	} }
+	map_select('willow');
 	// Populate maps
 
 	// Populate difficulties
 	populate_difficulties();
+	difficulty_select('pro'); // Default difficulty
 
 	// Populate gameplay
 	populate_gameplay(lang_use);
